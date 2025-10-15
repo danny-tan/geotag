@@ -21,6 +21,7 @@ def dms_to_deg(dms, ref):
         decimal = -decimal
     return decimal
 
+#test comment
 def deg_to_dms_rational(deg_float):
     deg_abs = abs(deg_float)
     minutes, seconds = divmod(deg_abs * 3600, 60)
